@@ -3770,13 +3770,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item:
   - id: capacete
-    iDefesa: 10
+    iDefesa: 15
     iAtaque: 0
     iDestreza: 0
     iVida: 0
     iImage: {fileID: 0}
   - id: peitoral
-    iDefesa: 15
+    iDefesa: 20
     iAtaque: 0
     iDestreza: 0
     iVida: 0
