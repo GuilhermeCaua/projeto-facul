@@ -5,10 +5,13 @@ using UnityEngine;
 [System.Serializable]
 public class Item 
 {
+    public string nome;
     public string id;
-    public int iDefesa;
-    public int iAtaque;
-    public int iDestreza;
-    public int iVida;
-    public Sprite iImage;
+    public int defesa;
+    public int vida;
+    public int dano;
+    public Sprite Iimagem;
+    
+
+
 }
