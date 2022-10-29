@@ -2,15 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
-public class Item
+public class peitoral : MonoBehaviour
 {
     public string nome;
     public int id;
     public int defesa;
     public int vida;
-    public int dano;
-    public Sprite Iimagem;
 
     public string Nome
     {
@@ -31,20 +28,6 @@ public class Item
     {
         get { return vida; }
         set { vida = value; }
+
     }
-    public int Dano
-    {
-        get { return dano; }
-        set { dano = value; }
-    }
-
-
-
-
-
-
-
-
-
-
 }

@@ -1295,6 +1295,7 @@ GameObject:
   - component: {fileID: 531926436}
   - component: {fileID: 531926435}
   - component: {fileID: 531926434}
+  - component: {fileID: 531926441}
   m_Layer: 5
   m_Name: 5
   m_TagString: Untagged
@@ -1551,6 +1552,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 531926432}
   m_CullTransparentMesh: 1
+--- !u!114 &531926441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 531926432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33e1e606663554e47adbb7c2ec2970ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nome: escudo
+  id: 5
+  defesa: 25
+  vida: 15
 --- !u!850595691 &596456454
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -2534,25 +2551,25 @@ MonoBehaviour:
     dano: 0
     Iimagem: {fileID: 0}
   - nome: peitoral
-    id: 1
+    id: 0
     defesa: 35
     vida: 15
     dano: 0
     Iimagem: {fileID: 0}
   - nome: luvas
-    id: 3
+    id: 0
     defesa: 15
     vida: 10
     dano: 0
     Iimagem: {fileID: 0}
   - nome: botas
-    id: 4
+    id: 0
     defesa: 20
     vida: 10
     dano: 0
     Iimagem: {fileID: 0}
   - nome: escudo
-    id: 5
+    id: 0
     defesa: 25
     vida: 15
     dano: 0
@@ -3467,6 +3484,7 @@ GameObject:
   - component: {fileID: 972374610}
   - component: {fileID: 972374609}
   - component: {fileID: 972374608}
+  - component: {fileID: 972374615}
   m_Layer: 5
   m_Name: 2
   m_TagString: Untagged
@@ -3723,6 +3741,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 972374606}
   m_CullTransparentMesh: 1
+--- !u!114 &972374615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972374606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a085f78ca567944890a2daf3d7188e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nome: peitoral
+  id: 2
+  defesa: 35
+  vida: 15
 --- !u!1 &1059005757
 GameObject:
   m_ObjectHideFlags: 0
@@ -3816,6 +3850,7 @@ GameObject:
   - component: {fileID: 1075180490}
   - component: {fileID: 1075180489}
   - component: {fileID: 1075180488}
+  - component: {fileID: 1075180495}
   m_Layer: 5
   m_Name: 3
   m_TagString: Untagged
@@ -4072,6 +4107,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1075180486}
   m_CullTransparentMesh: 1
+--- !u!114 &1075180495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075180486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52d92b6faf2e84f46b8d7bdff51d7520, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nome: luva
+  id: 3
+  defesa: 15
+  vida: 10
 --- !u!1 &1124864291
 GameObject:
   m_ObjectHideFlags: 0
@@ -5833,6 +5884,7 @@ GameObject:
   - component: {fileID: 1565748490}
   - component: {fileID: 1565748489}
   - component: {fileID: 1565748488}
+  - component: {fileID: 1565748495}
   m_Layer: 5
   m_Name: 4
   m_TagString: Untagged
@@ -6089,6 +6141,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1565748486}
   m_CullTransparentMesh: 1
+--- !u!114 &1565748495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565748486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09891d54b5f869a4b91b690e22ddf05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nome: botas
+  id: 4
+  defesa: 20
+  vida: 10
 --- !u!1 &1657847540
 GameObject:
   m_ObjectHideFlags: 0
@@ -6182,6 +6250,7 @@ GameObject:
   - component: {fileID: 1660043742}
   - component: {fileID: 1660043744}
   - component: {fileID: 1660043743}
+  - component: {fileID: 1660043745}
   m_Layer: 5
   m_Name: 1
   m_TagString: Untagged
@@ -6438,6 +6507,22 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 5
   m_TargetDisplay: 0
+--- !u!114 &1660043745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660043736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61985fd506882c14593ed9b51daf717b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nome: capacete
+  id: 1
+  defesa: 10
+  vida: 10
 --- !u!1 &1678701149
 GameObject:
   m_ObjectHideFlags: 0
